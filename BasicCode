@@ -1,1 +1,16 @@
-
+ To link the local repository and remote repository
+ git remote add origin "paste the http link" - https://github.com/SAGlobalBhavana/SA_Demo.git
+ 
+ Push the file to GitHub
+ we can push a local file on to remote repository
+ git push origin master
+ git push <remote-name> <branch-name>
+ 
+ To clone the Remote repository and push the data from local to Remote Repository
+git init 
+git clone "hyperlink"
+cd Practice            -- add the folder manually 
+git touch Practice
+git add .
+git commit -m "added the folder"
+git push origin main
